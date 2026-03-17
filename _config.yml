@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://hyoonqt.github.io"
+url: "https://hyoonqt.my.id"
 
 github:
   username: hyoonqt # change to your GitHub username
@@ -198,8 +198,7 @@ sass:
 
 compress_html:
   clippings: all
-  comments: all
-  endings: all
+  comments: //hyoonqt.my.id
   profile: false
   blanklines: false
   ignore:
@@ -223,5 +222,5 @@ jekyll-archives:
     tag: tag
   permalinks:
     tag: /tags/:name/
-    category: /categories/:name/ 
-     
+    category: /categories/:name/
+
